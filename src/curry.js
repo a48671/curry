@@ -12,4 +12,5 @@ function curry(fun) {
     return checkArgument;
 }
 
+module.exports = curry;
 
