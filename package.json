@@ -1,0 +1,28 @@
+{
+  "name": "curry",
+  "version": "1.0.0",
+  "description": "Эта функция позваляет преобразовывать обычную функцию, должно передаваться определенное количество параметров в каррирующую функцию. Например, есть функция: function sum(a, b, c, d) {     return: a + b + c + d; } Чтоы она отработала так как нужно в неё необходимо передать 4-е параметра. Преобразовав эту функцию в каррирующую: var currySum = carry(sum) появляется возможность передать в нее параметры в несколько шагов: currySum(2)(3, 4)(5);",
+  "main": "curry.js",
+  "scripts": {
+    "dev": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a48671/curry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a48671/curry/issues"
+  },
+  "homepage": "https://github.com/a48671/curry#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "jest": "^25.1.0"
+  }
+}
